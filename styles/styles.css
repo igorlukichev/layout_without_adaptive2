@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, serif;
+
+}
+
+header {
+    padding: 30px 0 30px 0;
+    background-color: #020303;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header .container,
+.main .container,
+.description .container,
+footer .container {
+    font-size: 0;
+}
+
+.header-logo img {
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu {
+    margin-left: 281px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    margin: 0 28px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu ul li:first-child {
+    margin-left: 0;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(253, 239, 213);
+}
+
+.menu ul li a:hover {
+    border-bottom: 3px solid rgb(255, 175, 24);
+    color: rgb(255, 175, 24);
+}
+
+.main {
+    background-color: #020303;
+    padding: 133px 0 80px 0;
+}
+
+.main-info {
+    display: inline-block;
+    vertical-align: bottom;
+    max-width: 564px;
+    margin-right: 22px;
+}
+
+.main-image {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.main-info h1 {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.222;
+}
+
+.main-info h1 span {
+    color: rgb(255, 175, 24);
+}
+
+.main-info-items {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 81px 0 45px 0;
+    font-size: 0;
+}
+
+.main-info-items ul li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-info-items ul li:first-child {
+    margin-right: 99px;
+}
+
+.main-info-items ul li span {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    vertical-align: middle;
+}
+
+.main-info-items ul li img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.button {
+    font-size: 16px;
+    color: rgb(2, 3, 3);
+    font-weight: bold;
+    background-color: rgb(255, 175, 24);
+    border-radius: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+}
+
+.button:hover {
+    box-shadow: 0 8px 8px rgba(255, 175, 24, 0.4);
+}
+
+.button.button-main-choice {
+    padding: 22px 54px 23px 54px;
+    margin-top: 92px;
+    scroll-behavior: smooth;
+}
+
+.products {
+    background-color: #020303;
+    padding: 120px 0 108px 0;
+}
+
+.products-title {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+}
+
+.products-items {
+    margin-top: 48px;
+    font-size: 0;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.products-item {
+    background-color: #FFF;
+    display: inline-block;
+    vertical-align: middle;
+    width: 282px;
+    margin: 12px;
+    text-align: center;
+    font-size: 0;
+    border: 5px solid #FFF;
+    box-sizing: border-box;
+    padding: 5px 0 10px 0;
+}
+
+.products-item:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 6px 4px rgba(255, 255, 255, 0.5);
+}
+
+.products-item-title {
+    font-size: 18px;
+    color: rgb(24, 26, 26);
+    font-weight: bold;
+    text-align: center;
+    margin: 30px 0 15px 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.products-item-text {
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    line-height: 1.286;
+    text-align: center;
+    max-width: 242px;
+    display: inline-block;
+    vertical-align: middle;
+    height: 50px;
+}
+
+.button.button-products {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 16px;
+    width: 242px;
+    margin: 15px 0;
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+
+.products-item:first-child,
+.products-item:last-child {
+    border: 5px solid rgb(255, 175, 24);
+}
+
+.description {
+    background-color: #020303;
+    margin: 0 auto;
+}
+
+.description-info {
+    padding: 120px 0 67px 0;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 367px;
+    font-size: 0;
+}
+
+.description-info-title {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-bottom: 71px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.description-info-text {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 100px;
+}
+
+.description-info-about {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-bottom: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.description-info ul li {
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+}
+
+.button-info {
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    box-sizing: border-box;
+}
+
+.description-info ul li:first-child a {
+    padding: 13px 6px;
+    margin-right: 40px;
+}
+
+.description-info ul li:nth-child(2) a {
+    padding: 11px 10px 9px 12px;
+    margin-right: 40px;
+}
+
+.description-info ul li:last-child a {
+    padding: 14px 7px;
+}
+
+.description-image {
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 202px 0 67px 65px;
+    font-size: 0;
+}
+
+.description-info ul li a:hover {
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 6px 4px rgba(255, 255, 255, 0.5);
+}
+
+.description-info ul li a:active {
+    border-radius: 50%;
+    background-color: rgb(255, 175, 24);
+}
+
+.description-info ul li a:visited {
+    border-radius: 50%;
+    background-color: rgb(190, 190, 190);
+}
+
+footer {
+    background-color: #020303;
+    margin: 0 auto;
+}
+
+.footer-image {
+    padding: 30px 390px 30px 0;
+    vertical-align: middle;
+}
+
+.footer-rights {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    color: rgb(44, 44, 44);
+}
